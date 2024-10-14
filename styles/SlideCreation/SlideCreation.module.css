@@ -1,0 +1,328 @@
+.slidecreationhead {
+    background-color: #1c1c1c;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Full height of the viewport */
+}
+
+.slidecreationheadContent {
+    margin: auto;
+    width: 825px;
+    height: auto;
+    /* Adjust height automatically */
+    gap: 0px;
+    /* Space between the paragraphs */
+    opacity: 1;
+    /* Ensure it's visible */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Stack items vertically */
+}
+
+.gradientTextContainer {
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    /* Adds rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: linear-gradient(128.33deg, #35418F 28.92%, #5D8AFC 72.08%);
+}
+
+.gradientText {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    background: linear-gradient(128.33deg, #35418F 28.92%, #5D8AFC 72.08%);
+    -webkit-background-clip: text;
+    /* For WebKit-based browsers */
+    -webkit-text-fill-color: transparent;
+    /* Makes the text transparent */
+    background-clip: text;
+    /* Standard property */
+    color: transparent;
+    /* Transparent text to show gradient */
+    margin: 0;
+}
+
+.secondpara {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.73px;
+    color: #C9C9C9;
+    /* Light grey color for visibility */
+    margin-top: 5px;
+    /* Adds space between the two paragraphs */
+    margin-bottom: 20px;
+    /* Adds bottom margin of 10px */
+
+
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+
+.bottomContent {
+    /* margin: auto; */
+    width: 1056px;
+    height: auto;
+    padding: 0px 118px 159px 117px;
+    border-top: 1px solid #2D2D2D;
+    /* Add a border top */
+    opacity: 1;
+    /* Ensure it's visible */
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+}
+
+
+.inputcontainer {
+    display: flex;
+    width: 824px;
+    /* The total width of the input + icon container */
+    height: 112px;
+    /* The total height of the input and icon */
+    gap: 0px;
+
+    border-radius: 8px;
+    /* Rounded corners for the container */
+    opacity: 1;
+    /* Make sure the element is visible */
+}
+
+.inputbox {
+    flex: 1;
+    resize: none;
+    padding: 16px;
+    background-color: #2D2D2D;
+    color: #686567;
+    border: none;
+    border-right: 1px solid #C9C9C9;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 16px;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+   
+font-size: 15.77px;
+font-weight: 400;
+line-height: 19.09px;
+letter-spacing: -0.02em;
+
+
+
+}
+
+
+
+.attachicon {
+    width: 62px;
+    /* Set width to 62px */
+    height: 112px;
+    /* Set height to 112px */
+    top: 0.17px;
+    /* Set top position */
+    left: 762px;
+    /* Set left position */
+    padding: 44px 19px;
+    /* Padding for the icon */
+    gap: 10px;
+    /* Space between the input and the icon */
+    border: 0px 0px 0px 0.5px;
+    /* Border properties */
+    opacity: 1;
+    /* Make sure the icon is visible */
+    font-size: 24px;
+    /* Keep the size of the icon */
+    cursor: pointer;
+    /* Indicate it's clickable */
+    background-color: #2D2D2D;
+    /* Background color of the icon */
+    border-radius: 0px 8px 8px 0px;
+    /* Rounded corners on the right */
+    display: flex;
+    justify-content: center;
+    /* Center the icon horizontally */
+    align-items: center;
+    /* Center the icon vertically */
+    color: #C9C9C9;
+}
+
+.container {
+    margin-bottom: 20px;
+    color: #C9C9C9;
+    width: 824px;
+
+    display: flex;
+    justify-content: space-between;
+    /* Align the content in a row with space between items */
+    align-items: center;
+    /* Center content vertically */
+    gap: 20px;
+    /* Space between the boxes */
+}
+
+.containerBox {
+    margin-top: 10px;
+    width: 264px;
+    height: 88px;
+    padding: 13.68px 16.11px 14.32px 17.38px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #2D2D2D;
+    display: flex;
+    align-items: center;
+    /* Align icon and text vertically */
+    gap: 10px;
+    /* Space between the icon and text */
+    flex-direction: row;
+    /* Stack icon and text in a row */
+    border-radius: 8px;
+}
+
+.containerBox p {
+    font-size: 12px;
+    color: #C9C9C9;
+}
+
+
+
+.bottomTemplates {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #C9C9C9;
+
+    /* text color */
+ 
+}
+.TemplatesContent h2 {
+    color: #FFFFFF;
+}
+
+.addButton {
+    width: 112px; /* Set the width */
+    height: 72px; /* Set the height */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    background-color: #2D2D2D; /* Button background color */
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addButton:hover {
+    background-color: #3D3D3D; /* Change background color on hover */
+}
+
+.plusIcon {
+    font-size: 36px; 
+    color: #C9C9C9;
+   font-weight: normal;
+   
+
+
+}
+
+
+
+.TemplatesContent p {
+    color: #C9C9C9;
+    /* text color */
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.button {
+    height: 32px;
+    padding: 9.5px 20.5px 9.5px 21.5px;
+    gap: 6.41px;
+    border-radius: 8px;
+    border: 0.8px solid transparent;
+    background-color: #2D2D2D;
+    /* solid background color */
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+    color: #C9C9C9;
+    /* text color */
+    font-size: 11px;
+    font-weight: 400;
+    border: 1px solid #C5C5C5;
+    line-height: 13.31px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    /* smooth transition */
+}
+
+.button:hover {
+    /* background-color: #191919; */
+    border-color: #6949FF;
+
+}
+.templeteImg {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items from the top */
+    text-align: center;
+}
+
+.templeteImgBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112px;
+   
+}
+
+.templeteImgBox img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.templeteImgBox p {
+    color: #C9C9C9;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.31px;
+    letter-spacing: -0.02em;
+    margin-top: 8px;
+}
+.customline {
+    width: 100%; /* Set the width of the line */
+    height: 1.5px; /* Set the thickness of the line */
+    background-color: #2D2D2D; /* Line color */
+    margin-top: 10px; /* Optional: Adds space above and below the line */
+    border: none; /* Removes any border */
+    margin-bottom: 5px;
+}
+
