@@ -19,7 +19,8 @@
   position: sticky;
   top: 20;
   height: 100%;
-  width: 15% !important;
+  /* giving specific width is creating issue*/
+  /* width: 15% !important; */
   padding: 20px;
   background-color: #1c1c1e;
   color: white;
