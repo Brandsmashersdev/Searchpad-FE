@@ -3,12 +3,18 @@
   background: #1c1c1c;
   display: flex;
   flex-direction: row;
-  padding: 50px ;
+  padding: 40px;
+}
+.mainContainer {
+ display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
 }
 
 .rightContainer {
-  padding: 0px 20px;
- 
+  padding: 0px 40px;
+  background-color: #35418f;
 }
 .rightsection {
   background: #1c1c1c;
@@ -45,7 +51,6 @@
   top: 1.67px;
   left: 1.67px;
   gap: 0px;
-  opacity: 0px;
 }
 .text {
   margin-left: 10px;
@@ -54,15 +59,13 @@
   font-family: Arial, sans-serif;
   color: #fff;
   border-right: 0.7px solid #3f3f3f;
-  padding: 0px 80px;
+  padding: 0px 150px;
 }
-.rightcontainer{
- padding: 0px 20px;
+.rightcontainer {
+  padding: 0px 20px;
 }
 .leftsection {
   width: 60%;
-  
-
 }
 .header {
   text-align: center;
@@ -227,7 +230,6 @@
   /* margin-bottom: 20px; */
 }
 .designBranding {
- 
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -251,7 +253,6 @@
 
 .colorInput {
   width: 100%;
-  padding: 5px;
   border-radius: 5px;
   background: #333;
   border: none;
@@ -342,12 +343,20 @@
   border: none;
 }
 .fontSelects {
-  width: 4%;
+  width: 10%;
   padding: 10px;
   border-radius: 5px;
   background-color: #333;
   color: #fff;
   border: none;
+  
+}
+.arrowdropdown{
+  background-color: #333;
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
 }
 
 .logoUpload {
@@ -429,18 +438,21 @@
 }
 
 .optionCards {
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
-  margin: 10px 0px;
+}
+
+.roboimagess{
+  width: 56px !important;
+  height: 34px !important;
 }
 .optionCardss {
-  
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
-  margin: 10px 0px;
   border-bottom: 0.7px solid #3f3f3f;
   padding-bottom: 10px;
 }
@@ -457,11 +469,38 @@
   height: 100%;
   display: flex;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px ;
   align-items: center;
   text-align: center;
   color: #fff;
   cursor: pointer;
+}
+.optionCard1 {
+  background: #171717;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px ;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.optionCardcontainer {
+  background: #171717;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: start;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  /* width: 368px;
+  height: 80px; */
 }
 .optioncard {
   background: #171717;
@@ -471,18 +510,16 @@
   text-align: center;
   color: #fff;
   cursor: pointer;
-  width:100%;
+  width: 100%;
   height: 100%;
   border-radius: 8px;
-
 }
 .optionCards {
- /* background-color: red; */
+
   width: 100%;
   height: 100%;
   display: flex;
   border-radius: 10px;
-  padding: 10px;
   align-items: center;
   text-align: center;
   justify-content: space-between;
@@ -492,7 +529,6 @@
 
 .optionCard p {
   font-size: 16px;
- 
 }
 
 .optionCard small {
@@ -512,15 +548,15 @@
 }
 
 .imagecardIcon {
+  
   display: flex;
   align-items: start;
   justify-content: center;
   width: 72px;
   height: 50px;
-
   border-radius: 8px;
-  margin: 0 auto;
-}
+  }
+
 .imageIcon {
   border-radius: 8px;
   height: 100% !important;
@@ -534,16 +570,17 @@
 }
 
 .iconContainer h {
-  font-size: 11px;
   color: #dadada;
-  text-align: left;
+  font-size: 11px;
   font-weight: 500;
   line-height: 13.13px;
   letter-spacing: -0.02em;
+  text-align: left;
 }
 
 .iconContainer small {
   font-size: 10px;
+  font-weight: 400;
   color: #c9c9c9;
   text-align: left;
 }
@@ -560,11 +597,14 @@
 
 .formatImage {
   width: 100% !important;
-  height: 130% !important;
+  height: 100% !important;
   border-radius: 8px;
 }
-
-
+.formatImages {
+  width: 100% !important;
+  height: 110% !important;
+  border-radius: 8px;
+}
 
 .toneVoice {
   margin-bottom: 20px;
@@ -646,9 +686,6 @@
   flex-direction: column;
   width: 136px;
   height: 132px;
- 
-
-  
 }
 /*gtfy */
 .box1 {
@@ -657,11 +694,9 @@
     #2d2d2d 46.75%,
     rgba(147, 147, 147, 0.6) 154.84%
   );
-  width: 32px;
-  height: 48px;
-  gap: 6.41px;
-  border-radius: 4px;
-  opacity: 0px;
+  width: 24px;
+  height: 32px;
+  border-radius: 2px;
   border: 0.5px solid white;
 }
 .box2 {
@@ -670,11 +705,10 @@
     #2d2d2d 46.75%,
     rgba(147, 147, 147, 0.6) 154.84%
   );
-  width: 52px;
-  height: 52px;
+  width: 32px;
+  height: 32px;
   gap: 6.41px;
   border-radius: 4px;
-  opacity: 0px;
   border: 0.5px solid white;
 }
 .box3 {
@@ -683,11 +717,10 @@
     #2d2d2d 46.75%,
     rgba(147, 147, 147, 0.6) 154.84%
   );
-  width: 52px;
-  height: 32px;
+  width: 32px;
+  height: 24px;
   gap: 6.41px;
   border-radius: 4px;
-  opacity: 0px;
   border: 0.5px solid white;
 }
 .heading {
@@ -720,5 +753,29 @@
   top: 0.16px;
   gap: 0px;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
+}
+.smallheading {
+  margin-top: 3px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  
+}
+.optionCardtext{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background: #171717;
+ width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px ;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
 }
